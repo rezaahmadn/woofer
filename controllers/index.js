@@ -1,3 +1,5 @@
+"use strict"
+
 const { Woof } = require('../models')
 
 class Controller{
