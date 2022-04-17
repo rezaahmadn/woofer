@@ -7,19 +7,19 @@
     "dialect": "postgres"
   },
   "test": {
-    "username": "ktdwvdzcfxuect",
-    "password": "5d7b28f9a554c3ddfe5575ed87ad5388677a40e123004e5923e4722c4a2f8345",
-    "database": "d6ok782p4h49ck",
-    "host": "ec2-99-80-170-190.eu-west-1.compute.amazonaws.com",
+    "username": "process.env.USERNAME",
+    "password": "process.env.PASSWORD",
+    "database": "process.env.DATABASE",
+    "host": "process.env.HOST",
     "dialect": "postgres",
-    "port":5432
+    "port":"process.env.PORT"
   },
   "production": {
-    "username": "ktdwvdzcfxuect",
-    "password": "5d7b28f9a554c3ddfe5575ed87ad5388677a40e123004e5923e4722c4a2f8345",
-    "database": "d6ok782p4h49ck",
-    "host": "ec2-99-80-170-190.eu-west-1.compute.amazonaws.com",
+    "username": "process.env.USERNAME",
+    "password": "process.env.PASSWORD",
+    "database": "process.env.DATABASE",
+    "host": "process.env.HOST",
     "dialect": "postgres",
-    "port":5432
+    "port":"process.env.PORT"
   }
 }
